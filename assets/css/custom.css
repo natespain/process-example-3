@@ -1,0 +1,206 @@
+/*********************************************
+ Main home banner customizations
+ *********************************************/
+
+
+/* If you want to add a background image to the home page banner instead of using a solid color.
+Just un comment the #banner rule below. */
+/* #banner {
+  background-image: url(../../images/pic01.jpg);
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.75);
+  text-shadow: 1px 1px 15px #333;
+  text-align: center;
+  cursor: default;
+  padding: 10em 4em 9em 4em;
+} */
+
+
+
+/* If you want to change the banner button color. The following two css rules use a class called "redbtn".
+You can call the class whatever you want, but in order for it to work, it needs to be
+added to the button in the index html file as well.*/
+#banner{
+    background-image: url(../../images/image2.jpg);
+}
+
+#banner .button.redbtn {
+  background-color: rgba(188, 46, 26, 1);
+  box-shadow: none;
+}
+
+#banner .button.redbtn:hover {
+  background-color: rgba(188, 46, 26, .8);
+}
+
+#banner h1{
+  font-size: 6em;
+}
+
+.post .content header h2{
+  font-size: 5em;
+}
+
+#banner > .inner > :last-child{
+  visibility: hidden;
+}
+
+.post .content {
+  padding: 4em 4em 4em 0;
+}
+
+.post.style2 a{
+  color: rgb(27 85 117)
+}
+
+.post .image{
+  margin: 4em;
+
+}
+
+.post .alt .image{
+  marign: 6em;
+}
+
+.post.style1.invert .content{
+  background-color: rgb(27 85 117);
+}
+
+.post.style1.invert{
+  background-color: rgb(27 85 117);
+}
+
+.post.style1 a{
+  color: rgb(27 85 117);
+}
+
+
+.post.style1 .button.alt{
+  color: rgb(27 85 117) !important;
+}
+
+.post.style2 input[type="submit"].alt, .post.style2 input[type="reset"].alt, .post.style2 input[type="button"].alt, .post.style2 button.alt, .post.style2 .button.alt{
+  color: rgb(27 85 117) !important;
+}
+
+@media screen and (max-width: 1280px){
+  .post .content {
+    padding: 4em 4em 4em 0;
+  }
+}
+
+post.style1.invert .button.alt:hover{
+
+}
+
+.table-wrapper{
+  max-width: 60em;
+}
+
+.interview blockquote{
+  margin:0 2em 1em 2em;
+}
+
+.interview p{
+  margin: 0 0 .3em 0;
+}
+
+.interview green{
+  color: rgb(91 202 237);
+}
+
+h3{
+  margin: 3em 0 1em 0;
+  color: rgb(91 202 237);
+  font-size: 1.5em;
+}
+h2{
+  font-size: 4em !important;
+}
+
+h1{
+  font-size: 2.5em;
+  color: black;
+}
+
+a{
+  color:rgb(241 98 75);
+}
+
+/* .image.right img{
+  margin: 2em;
+} */
+
+.image.right img{
+  margin: 1em 0 2em 2em;
+}
+
+#main .inner{
+  max-width: 55em;
+}
+
+center {
+  text-align: center;
+  font-weight: 600;
+  /* font-size: 1.1em; */
+  margin: 0 10em 2em 10em;
+}
+
+
+
+.post.style2.invert{
+      background-color: rgb(27 85 117);
+}
+
+.post.style2.invert .content{
+    background-color: rgb(27 85 117);
+}
+
+
+#header{
+    background-color: rgb(27 85 117);
+    color: white;
+}
+
+#menu{
+  background-color: rgb(27 85 117);
+  color: white;
+}
+
+#footer{
+      background-color: rgb(27 85 117);
+}
+
+.row.uniform.\35 0\25 > *{
+  padding: 1.5em 0 0 1.5em;
+}
+
+.border img{
+  border: 1px solid black;
+}
+
+.bottom img{
+  margin-bottom: 4em;
+}
+
+.image.right {
+    margin: 0em 0em 0em 2em;
+  }
+
+  table th{
+    color: rgb(91 202 237);
+  }
+
+
+  /* @media screen and (max-width: 480px)
+  #main {
+
+.image.right img{
+  margin: 0 2em 0 2em;
+}
+
+    } */
+
+/*********************************************
+ Write your css customizations below
+ *********************************************/
